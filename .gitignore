@@ -1,0 +1,11 @@
+# Vi
+*.swp
+*.swo
+
+# Python Packages
+*.py[cod]
+*.egg
+*.egg-info
+dist
+build
+venv
