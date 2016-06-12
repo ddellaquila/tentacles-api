@@ -4,6 +4,19 @@ Tentacles API
 
 A really simple RESTful API used to explore CI and CD.
 
+Docker
+------
+
+You can find a Docker image at https://hub.docker.com/r/ddellaquila4beeva/tentacles-api/.
+
+To start a container use:
+```
+docker run --publish 5000:5000 -d ddellaquila4beeva/tentacles-api
+```
+
+API Usage
+---------
+
 The only resource exposed by this service is a "tentacle",
 which has the following data fields:
 
@@ -20,9 +33,6 @@ Available endpoints:
 | POST          | http://[hostname]/tentacles      | Create a new tentacle       |
 | PUT           | http://[hostname]/tentacles/[id] | Update an existing tentacle |
 | DELETE        | http://[hostname]/tentacles/[id] | Delete a tentacle           |
-
-API Usage
----------
 
 Index page
 ```
