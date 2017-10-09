@@ -2,16 +2,18 @@ Tentacles API
 =============
 
 
-A really simple RESTful API used to explore CI and CD.
+A simple RESTful API which I use as playground to explore CI/CD tools
+and work with containers.
+
 
 Docker
 ------
 
-You can find a Docker image at https://hub.docker.com/r/ddellaquila4beeva/tentacles-api/.
+You can find a Docker image at https://hub.docker.com/r/ddellaquila/tentacles-api/.
 
 To start a container use:
 ```
-docker run --publish 5000:5000 -d ddellaquila4beeva/tentacles-api
+docker run --publish 5000:5000 -d ddellaquila/tentacles-api
 ```
 
 API Usage
@@ -75,7 +77,7 @@ Server: Werkzeug/0.11.9 Python/2.7.11
 Date: Fri, 06 May 2016 08:07:14 GMT
 
 {
-    "description": "A mutant monster and lab assistant created by mad scientist Dr. Fred Edison.", 
+    "description": "A mutant monster and lab assistant created by mad scientist Dr. Fred Edison.",
     "name": "Purple Tentacle"
 }
 ```
